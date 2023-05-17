@@ -1,0 +1,4 @@
+rootProject.name = "My Application_0508_03"
+include ':app'
+include ':myapplication_dialog'
+include ':myapplication_searchview'

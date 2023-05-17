@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="channel">
+        <item>单声道</item>
+        <item>双声道</item>
+    </array>
+<!--array不行，只能用string-array,array默认是int，但是需要的是string-->
+    <string-array name="samplingRate">
+        <item>16000</item>
+        <item>44100</item>
+    </string-array>
+
+
+</resources>

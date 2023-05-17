@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application_0508_03</string>
+    <string name="myText">Hello World,Hello Android.Hello World,Hello Android.</string>
+    <string name="app_hint">请输入你的账号</string>
+    <string name="app_record">录音机播放列表</string>
+    <string name="app_record_channel">声道</string>
+    <string name="app_record_samplingRate">采样率</string>
+</resources>

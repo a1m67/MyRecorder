@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/helloWorld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.599" />
+
+    <TextView
+        android:id="@+id/tv_01"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="@string/myText"
+        android:textColor="@color/myRed"
+        android:background="@color/material_on_surface_stroke"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusableInTouchMode="true"
+        android:clickable="true"
+        tools:ignore="MissingConstraints">
+        <requestFocus/>
+    </TextView>
+
+    <Button
+        android:id="@+id/btn1"
+        app:layout_constraintTop_toBottomOf="@id/tv_01"
+        android:layout_width="405dp"
+        android:layout_height="125dp"
+        android:background="@drawable/btn_selector"
+        android:text="录音"
+        android:onClick="dialog"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="209dp"
+        tools:ignore="MissingConstraints,OnClick" />
+
+<!--    <Button-->
+<!--        android:id="@+id/btn2"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/btn1"-->
+<!--        android:layout_width="405dp"-->
+<!--        android:layout_height="125dp"-->
+<!--        android:background="@drawable/btn_selector"-->
+<!--        android:text="放音"-->
+<!--        android:onClick="play"-->
+<!--        tools:layout_editor_absoluteX="4dp"-->
+<!--        tools:layout_editor_absoluteY="209dp"-->
+<!--        tools:ignore="MissingConstraints,OnClick" />-->
+
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/et"-->
+<!--        android:hint="@string/app_hint"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/helloWorld"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="100dp"-->
+
+
+<!--        tools:ignore="MissingConstraints" />-->
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
