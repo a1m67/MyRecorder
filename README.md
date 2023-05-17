@@ -1,4 +1,4 @@
 # MyRecorder
-安卓开发的一个非常简易的录音机
+app文件夹是使用安卓开发的一个非常简易的录音机，两个My Application都是测试用的
 使用AudioRecord录音
 使用AudioTrack播放
